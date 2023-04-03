@@ -25,7 +25,7 @@ Placez vous dans le dossier racine du projet.
 
 Lancer l'attaque avec les couples de Sanghyeon PARK.
 
-(m1, c1) = (61f06c,f45a76)
+(m1, c1) = (61f06c,f45a76) et 
 (m2, c2) = (2bcf92,c63bcc)
 
 ```bash
@@ -34,14 +34,14 @@ Lancer l'attaque avec les couples de Sanghyeon PARK.
 
 Lancer l'attaque avec les couples de Mohand-Hedi KASHI.
 
-(m1, c1) = (06d8ac,fc85aa)
+(m1, c1) = (06d8ac,fc85aa) et 
 (m2, c2) = (531012,a66745)
 
 ```bash
   make kashi
 ```
 
-Lancer l'attaque avec les couples de Sanghyeon PARK ET de Hedi KASHI.
+Lancer l'attaque avec les couples de Sanghyeon PARK ET de Hedi KASHI à la suite.
 
 ```bash
   make
