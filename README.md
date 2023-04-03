@@ -1,7 +1,7 @@
 
 # DM Attaque par le milieu en C
 
-Ce programme a été crée afin d'effectuer une attaque par le milieu à partir de deux couples clair/chiffrés connus.
+Ce programme a été créé afin d'effectuer une attaque par le milieu à partir de deux couples clair/chiffrés connus.
 
 
 /!\ **Le dossier source python (old_src_python) est seulement présent à titre indicatif afin de témoigner de l'historique du projet.** /!\
