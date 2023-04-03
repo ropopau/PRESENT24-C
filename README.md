@@ -3,9 +3,6 @@
 
 Ce programme a été crée afin d'effectuer une attaque par le milieu à partir de deux couples clair/chiffrés connus.
 
-
-
-
 ## Exécution
 
 Placez vous dans le dossier racine du projet.
