@@ -4,7 +4,7 @@
 Ce programme a été crée afin d'effectuer une attaque par le milieu à partir de deux couples clair/chiffrés connus.
 
 
-/!\ **Le dossier source python est seulement présent à titre indicatif afin de témoigner de l'historique du projet.** /!\
+/!\ **Le dossier source python (old_src_python) est seulement présent à titre indicatif afin de témoigner de l'historique du projet.** /!\
 
 Nous avions tout d'abords voulu le coder en python. Cepandant, malgré le multiprocessing mis en place, la génération des listes lm et lc durait ~10 minutes. (Ancien code source (INCOMPLET) visible dans le dossier "old_src_python".)
 C'est pourquoi nous avons finalement codé le projet en C.
