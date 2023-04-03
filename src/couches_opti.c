@@ -29,6 +29,4 @@ int permut(int mot24, int* box_p){
         
     }
     return modif;
-
-
 }
