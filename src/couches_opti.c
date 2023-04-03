@@ -27,6 +27,6 @@ int permut(int mot24, int* box_p){
         modif = modif | (a << (23 - box_p[23-i])  );
         mot24 = (mot24 >> 1);
         
-    }
+    } 
     return modif;
 }

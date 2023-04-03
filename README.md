@@ -3,6 +3,11 @@
 
 Ce programme a été crée afin d'effectuer une attaque par le milieu à partir de deux couples clair/chiffrés connus.
 
+
+/!\ 
+Nous avions tout d'abords voulu le coder en python. Cepandant, malgré le multiprocessing mis en place, la génération des listes lm et lc durait ~10 minutes. (Ancien code source (INCOMPLET) visible dans le dossier "old_src_python".)
+C'est pourquoi nous avons finalement codé le projet en C et sans multiprocessing, nous étions à ~1min30.
+
 ## Exécution
 
 Placez vous dans le dossier racine du projet.
