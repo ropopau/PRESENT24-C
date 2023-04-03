@@ -9,12 +9,13 @@ Ce programme a été crée afin d'effectuer une attaque par le milieu à partir 
 Nous avions tout d'abords voulu le coder en python. Cepandant, malgré le multiprocessing mis en place, la génération des listes lm et lc durait ~10 minutes. (Ancien code source **incomplet** visible dans le dossier "old_src_python".)
 C'est pourquoi nous avons finalement codé le projet en C.
 
-Temps de créations des listes lm et lc: 
+**Temps de créations des listes lm et lc**: 
  - En python avec parallélisation: ~600 secondes.
  - En C sans parallélisation: ~30 secondes.
 
 Soit une REDUCTION du temps d'exécutions de -95%.
 
+**La recherche complète dure environ 1min30.**
 
 
 ## Exécution
