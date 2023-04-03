@@ -3,7 +3,7 @@
 #define NB_TOUR 11
 
 /*
- Fonction qui applique l'algorithme de cadencement présenté dans l'énoncé.
+Fonction qui applique l'algorithme de cadencement présenté dans l'énoncé.
 */
 void keygen_opti(uint64_t maitre, int *list_tour, int* box_s){
     //Le maximum de bit d'un entier est de 64.
@@ -21,7 +21,7 @@ void keygen_opti(uint64_t maitre, int *list_tour, int* box_s){
     uint64_t part1temp;
     uint64_t part2temp;
     
-    for (int i = 1; i < 12; i++){
+    for (int i = 1; i < NB_TOUR + 1; i++){
         // On récupère les clés de chaques tours.
         list_tour[i - 1] = part2 >> 16;
 

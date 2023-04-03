@@ -1,7 +1,7 @@
 #include "importations.h"
 /*
-    Fonction qui substitue des éléments dans un mot de 24 bit divisé en 6 éléments de 4 bits 
-    grâce à des opérations bit à bit selon une boite de substitution.
+Fonction qui substitue des éléments dans un mot de 24 bit divisé en 6 éléments de 4 bits 
+grâce à des opérations bit à bit selon une boite de substitution box_s.
 */
 int substit(int mot24, int* box_s){
     int modif= 0;
@@ -16,8 +16,8 @@ int substit(int mot24, int* box_s){
 }
 
 /*
-    Fonction qui permut des éléments dans un mot de 24 bit 
-    grâce à des opérations bit à bit selon une boite de permutation.
+Fonction qui permut des éléments dans un mot de 24 bit 
+grâce à des opérations bit à bit selon une boite de permutation box_p.
 */
 int permut(int mot24, int* box_p){
     int modif = 0;

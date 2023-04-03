@@ -21,7 +21,7 @@ int estCles(int m1, int c1, int m2, int c2, int k1, int k2, int *box_s, int *box
 }
 /*  
 Fonction de recherches des éléments en commun.
-Il prend en compte tout les doublons probables.
+Il prend en compte TOUS les doublons probables.
 Exemple:
 lm = {1, 51, 51, 51, 51, 80, 120}
 lc = {51, 51, 67, 74, 100, 153, 201}

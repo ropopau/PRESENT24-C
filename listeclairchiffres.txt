@@ -1,2 +1,0 @@
-KASHI_MOHAND-HEDI: (m1, c1) = (06d8ac,fc85aa): (m2, c2) = (531012,a66745)
-PARK_SANGHYEON:    (m1, c1) = (61f06c,f45a76): (m2, c2) = (2bcf92,c63bcc)
