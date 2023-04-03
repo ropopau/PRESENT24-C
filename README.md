@@ -12,7 +12,7 @@ Temps de créations des listes lm et lc:
  - En python avec parallélisation: ~600 secondes.
  - En C sans parallélisation: ~30 secondes.
 
-Soit une REDUCTION du temps d'exécutions de 95%.
+Soit une REDUCTION du temps d'exécutions de -95%.
 
 ## Exécution
 
