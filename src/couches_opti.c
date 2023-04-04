@@ -1,4 +1,3 @@
-#include "importations.h"
 /*
 Fonction qui substitue des éléments dans un mot de 24 bit divisé en 6 éléments de 4 bits 
 grâce à des opérations bit à bit selon une boite de substitution box_s.

@@ -1,9 +1,14 @@
-#include "importations.h"
+#define TAILLE 16777216
+
+typedef struct{
+        int cle;
+        int val;
+    } Tuplet;
+
 /*
 Fonction qui affiches dans le terminal si les clés potentielles sont valides ou non.
 */
 int estCles(int m1, int c1, int m2, int c2, int k1, int k2, int *box_s, int *box_p){    
-    bool rescomp = true;
     if (c1 == doublechiffrement(m1, k1, k2, box_s, box_p)){
         if (c2 == doublechiffrement(m2, k1, k2, box_s, box_p)){  
             printf("Clés valides ! (k1, k2): (%#06x, %#06x)\n", k1, k2);

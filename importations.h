@@ -1,16 +1,12 @@
 // Macros
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-#include <sys/wait.h>
-#include <sys/types.h>
 #include <stdint.h>
-#include <time.h>
-#include <stdbool.h>
+#include <unistd.h>
+
+
 
 #define TAILLE 16777216
-#define TAILLE_CHUNK 4194304
 
 typedef struct{
         int cle;

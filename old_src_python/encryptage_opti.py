@@ -18,8 +18,6 @@ def chiffrement(etat, gencle, box_s, box_p):
     etat = etat ^ gencle[-1]
     return etat
 
-def doublechiffrement(msg, k1, k2, box_s, box_p):
-    souscle1 = keygen_opti(k1, 11, box_s, False)
-    souscle2 = keygen_opti(k2, 11, box_s, False)
-    dbled = chiffrement(chiffrement(msg, souscle1, box_s, box_p), souscle2, box_s, box_p)
+def doublechiffrement(msg, gencle1, gencle2, box_s, box_p):
+    dbled = chiffrement(chiffrement(msg, gencle1, box_s, box_p), gencle2, box_s, box_p)
     return dbled

@@ -3,6 +3,7 @@
         "types.h": "c",
         "stdio.h": "c",
         "wait.h": "c",
-        "importations.h": "c"
+        "importations.h": "c",
+        "unistd.h": "c"
     }
 }

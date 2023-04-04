@@ -1,19 +1,15 @@
-#include "importations.h"
-
+#include "couches_opti.h"
 
 /*
 Fonction de chiffrement étant donnée un clair, une liste de sous clé
 ainsi que l'inverse des boite S et P.
-
 L'algo présenté dans l'énoncé a été bêtement appliqué.
 */
 int chiffrement(int etat, int *gencle, int* box_s, int* box_p){
     for (int i =0; i < 10; i++){
-
         etat = etat ^ gencle[i];
         etat = substit(etat, box_s);
         etat = permut(etat, box_p);
-
     }
     return (etat ^ gencle[10]);
 

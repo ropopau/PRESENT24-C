@@ -1,5 +1,4 @@
-#include "importations.h"
-
+#include <stdint.h>
 #define NB_TOUR 11
 
 /*
