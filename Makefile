@@ -2,7 +2,7 @@
 # Si aucune commande n'est précisée, le programme lance la recherche de clé pour Sanghyeon PARK.
 run: park
 
-# Fonctions qui lance le programme avec comme argument 1 (pour que le programme puisse choisir les bons couples.)
+# Fonctions qui lance le programme avec comme argument 1 ou 0 (pour que le programme puisse choisir les bons couples.)
 park: compil ./devoirPARK_KASHI
 	./devoirPARK_KASHI 1
 
