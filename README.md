@@ -43,12 +43,6 @@ Lancer l'attaque avec les couples de Mohand-Hedi KASHI.
   make kashi
 ```
 
-Lancer l'attaque avec les couples de Sanghyeon PARK ET de Hedi KASHI à la suite.
-
-```bash
-  make
-```
-
 ## TEST
 
 Placez vous dans le dossier racine du projet.
