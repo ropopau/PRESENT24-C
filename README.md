@@ -9,7 +9,7 @@ Ce programme a été créé afin d'effectuer une attaque par le milieu à partir
 Nous avions tout d'abords voulu le coder en python. Cepandant, malgré le multiprocessing mis en place, la génération des listes lm et lc durait ~10 minutes. (Ancien code source **incomplet** visible dans le dossier "old_src_python".)
 C'est pourquoi nous avons finalement codé le DM en C.
 
-**Temps de créations des listes lm et lc avec un intel Core i5-1035G7**: 
+**Temps de créations des listes lm et lc avec un intel Core i5-1035G7 sur secteur.**: 
  - En python avec parallélisation: ~600 secondes.
  - En C sans parallélisation: ~30 secondes.
 
