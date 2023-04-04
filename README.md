@@ -59,7 +59,7 @@ Lancer les unittests présent dans le dossier "./tests".
 Placez vous dans le dossier racine du projet.
 
 
-Nettoyer les exécutables.
+Supprimer les exécutables.
 
 ```bash
   make clean
