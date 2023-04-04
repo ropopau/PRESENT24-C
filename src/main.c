@@ -1,11 +1,14 @@
 #include <time.h>
-#include "attaque_opti.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include "_attaque_opti.h"
 /*
 Fonction principale du programme:
 
     - Il affiche chaque étape suivie du temps d'exécutions de ces dernières (total et isolé).
     - On initie box_s, box_p, invbox_s, invbox_p ici et on passe une référence à chaque fois qu'on en à besoin. 
     - Etant en binôme, les couples clair/chiffré sont choisie suivant l'option de compilation et d'exécution du programme.
+
 */
 int main(int argc, const char *argv[]){
     
@@ -130,7 +133,7 @@ int main(int argc, const char *argv[]){
 
     // Affichage du temps final.
     printf("===================================\n");
-    printf("  Temps final (avec libération de la mémoire).): %fs.\n", duree + duree1 + duree2 + duree3);
+    printf("  Temps final (avec libération de la mémoire): %fs.\n", duree + duree1 + duree2 + duree3);
     printf("===================================\n\n");
 
     

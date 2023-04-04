@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include "_encdec.h"
+#include "_cadencement_opti.h"
+
 #define TAILLE 16777216
 
 typedef struct{
@@ -12,7 +16,6 @@ int estCles(int m1, int c1, int m2, int c2, int k1, int k2, int *box_s, int *box
     if (c1 == doublechiffrement(m1, k1, k2, box_s, box_p)){
         if (c2 == doublechiffrement(m2, k1, k2, box_s, box_p)){  
             printf("Clés valides ! (k1, k2): (%#06x, %#06x)\n", k1, k2);
-            // Explication du return de cette fonction ligne 51.
             return (1);
         }
         else{
@@ -50,6 +53,7 @@ void recherche_cle(Tuplet **lm, Tuplet **lc, int m1, int c1, int m2, int c2, int
         else if (lc[j]->val == lm[i]->val){
             // A chaque éléments commun, nous incrémentons de 1 le nombre de collision nb_collisions.
             nb_collision += 1;
+            
             if (c2 == doublechiffrement(m2, lm[i]->cle, lc[j]->cle, box_s, box_p)){
                 // estCle renvoie 1 si la pair de clé est valide, 0 sinon.
                 // Ainsi, si la pair est valide, alors nb_cles sera incrémenté de 1.

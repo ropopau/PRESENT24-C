@@ -4,6 +4,8 @@
         "stdio.h": "c",
         "wait.h": "c",
         "importations.h": "c",
-        "unistd.h": "c"
+        "unistd.h": "c",
+        "_cadencement_opti.h": "c",
+        "_couches_opti.h": "c"
     }
 }
