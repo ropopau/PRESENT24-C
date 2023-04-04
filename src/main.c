@@ -132,9 +132,9 @@ int main(int argc, const char *argv[]){
     float duree3 = ((double) (fin3 - debut3)) / CLOCKS_PER_SEC;
 
     // Affichage du temps final.
-    printf("===================================\n");
-    printf("  Temps final (avec libération de la mémoire): %fs.\n", duree + duree1 + duree2 + duree3);
-    printf("===================================\n\n");
+    printf("============================================================\n");
+    printf("Temps final (avec libération de la mémoire): %fs.\n", duree + duree1 + duree2 + duree3);
+    printf("============================================================\n\n");
 
     
     
