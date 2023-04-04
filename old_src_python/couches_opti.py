@@ -15,7 +15,7 @@ Fonction de permutation bit-à-bit.
 def permut(mot24, box_p):
     modif = 0
     for i in range(24):
-        a = mot24 & 0x1 
+        a = mot24 & 0x1
         modif = modif | (a << (23-box_p[23 - i])) 
         mot24 = (mot24 >> 1) 
     return modif
