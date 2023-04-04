@@ -1,10 +1,13 @@
-all: compil park clean
+run: park
 
+park: compil parkc
 
-park: compil ./devoirPARK_KASHI
+kashi: compil kashic
+
+parkc: compil ./devoirPARK_KASHI
 	./devoirPARK_KASHI 1
 
-kashi: compil ./devoirPARK_KASHI
+kashic: compil ./devoirPARK_KASHI
 	./devoirPARK_KASHI 0
 
 compil: src/cadencement_opti.c src/couches_opti.c src/decryptage_opti.c src/encryptage_opti.c src/attaque_opti.c src/main.c
@@ -15,8 +18,10 @@ compiltest: tests/main.c tests/couches_test.c tests/chiffre_test.c src/cadenceme
 
 test: compiltest unittester
 	./unittester
-	rm -f unittester
+	
 
-clean: ./devoirPARK_KASHI
-	rm -f devoirPARK_KASHI
+clean: 
+	rm -f ./devoirPARK_KASHI
+	rm -f ./unittester
+
 	

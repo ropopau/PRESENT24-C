@@ -20,7 +20,7 @@ Soit une REDUCTION du temps d'exécutions de -95%.
 **La recherche complète dure environ 1 minutes 30.**
 
 
-## Exécution
+## EXECUTION
 
 Placez vous dans le dossier racine du projet.
 
@@ -52,4 +52,15 @@ Lancer les unittests présent dans le dossier "./tests".
 
 ```bash
   make test
+```
+
+## NETTOYAGE
+
+Placez vous dans le dossier racine du projet.
+
+
+Nettoyer les exécutables.
+
+```bash
+  make clean
 ```
