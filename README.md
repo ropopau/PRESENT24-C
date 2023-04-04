@@ -1,5 +1,7 @@
 
 # DM Attaque par le milieu en C
+## Sanghyeon PARK 22001322
+## Mohand-Hedi KASHI 22005107
 
 Ce programme a été créé afin d'effectuer une attaque par le milieu à partir de deux couples clair/chiffrés connus.
 
