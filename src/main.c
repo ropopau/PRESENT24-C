@@ -50,7 +50,7 @@ int main(int argc, const char *argv[]){
 
         //Affichage
         printf("==========================================\n");
-        printf("  Recherche des clés de Sanghyeon PARK.\n");
+        printf("PARK.\n");
         printf("==========================================\n");
         printf("       m1: %#06x et c1: %#06x\n", m1, c1);
         printf("       m2: %#06x et c2: %#06x\n", m2, c2);
@@ -66,7 +66,7 @@ int main(int argc, const char *argv[]){
 
         //Affichage
         printf("======================================\n");
-        printf("  Recherche des clés de Hédi KASHI.\n");
+        printf("KASHI.\n");
         printf("======================================\n");
         printf("    m1: %#06x et c1: %#06x\n", m1, c1);
         printf("    m2: %#06x et c2: %#06x\n", m2, c2);
